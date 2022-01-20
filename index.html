@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check dei Box</title>
+
+    <script src="script.js"> </script>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+
+</head>
+<body>
+    <form id="FormDati" name="FormDati" method="POST" action="Registra.php">
+        <table>
+            <tr>
+                <td>
+                    <input type="text" name="Nome" class="" placeholder="Inserisci Nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Cognome" class="" placeholder="Inserisci Cognome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="email" name="Email" class="" placeholder="Inserisci Email">
+                </td>
+                <td>
+                    <input type="text" name="ConfermaEmail" class="" placeholder="Conferma Email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Username" class="" placeholder="Inserisci Username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Password" class="" placeholder="Inserisci Password">
+                </td>
+                <td>
+                    <input type="text" name="ConfermaPassword" class="" placeholder="Conferma Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="DataNascita" class="" placeholder="Inserisci Data di Nascita">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" value="maschio" id="Maschio" name="Sesso" class="">maschio</input>
+                    <input type="radio" value="femmina" id="Femmina" name="Sesso" class="">femmina</input>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" name="Cellulare" class="" placeholder="Inserisci Cellulare (opzionale)">
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <input value="Verifica" type="submit" onclick="ControllaBox()">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
